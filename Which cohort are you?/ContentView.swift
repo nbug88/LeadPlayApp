@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
-        Text("Hello, Github part 3!!")
+        VStack {
+            Text("Adopt A Dog And We'll Reveal Which cohort you belong to!")
+            Text("This is your pupper of truth.")
+            Text("By 2019 Lead Facils")
+            Text("Pick a Pup")
+        }
+        Image("blepdog.jpg")
+        
     }
 }
 
