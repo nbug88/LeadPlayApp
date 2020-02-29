@@ -10,22 +10,23 @@ import SwiftUI
 
 struct imagebutton: View {
     
-    @State private var showDetail = false
+    var filename: String
+    @Binding var showDetail: Bool
     
     var body: some View {
         HStack{
                 ZStack {
                 Button(action: {
-                            self.showDetail.toggle()
+                    self.showDetail.toggle()
                         }) {
-                Image("shydog")
+                Image(filename)
                     .resizable()
                     .frame(width:CGFloat(100), height: CGFloat(100))
                     .scaleEffect(showDetail ? 0.8 : 1)
                     .animation(.spring())
                     }
                     .buttonStyle(PlainButtonStyle())
-                    if showDetail {
+                    if self.showDetail {
                     Image(systemName: "checkmark.circle.fill")
                         .foregroundColor(.green)
                     }
@@ -36,6 +37,6 @@ struct imagebutton: View {
 
 struct imagebutton_Previews: PreviewProvider {
     static var previews: some View {
-        imagebutton()
+        imagebutton(filename: "blepdog", showDetail: .constant(false))
     }
 }
