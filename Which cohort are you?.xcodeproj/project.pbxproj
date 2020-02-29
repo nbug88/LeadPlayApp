@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9889D40240A49B100FE6C13 /* imagebutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9889D3F240A49B100FE6C13 /* imagebutton.swift */; };
 		E98A080D24097EAB0027F9FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A080C24097EAB0027F9FB /* AppDelegate.swift */; };
 		E98A080F24097EAB0027F9FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A080E24097EAB0027F9FB /* SceneDelegate.swift */; };
 		E98A081124097EAB0027F9FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98A081024097EAB0027F9FB /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E9889D3F240A49B100FE6C13 /* imagebutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagebutton.swift; sourceTree = "<group>"; };
 		E98A080924097EAB0027F9FB /* Which cohort are you?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Which cohort are you?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98A080C24097EAB0027F9FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E98A080E24097EAB0027F9FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				E98A080C24097EAB0027F9FB /* AppDelegate.swift */,
 				E98A080E24097EAB0027F9FB /* SceneDelegate.swift */,
 				E98A081024097EAB0027F9FB /* ContentView.swift */,
+				E9889D3F240A49B100FE6C13 /* imagebutton.swift */,
 				E98A081224097EB00027F9FB /* Assets.xcassets */,
 				E98A081724097EB00027F9FB /* LaunchScreen.storyboard */,
 				E98A081A24097EB00027F9FB /* Info.plist */,
@@ -149,6 +152,7 @@
 				E98A080D24097EAB0027F9FB /* AppDelegate.swift in Sources */,
 				E98A080F24097EAB0027F9FB /* SceneDelegate.swift in Sources */,
 				E98A081124097EAB0027F9FB /* ContentView.swift in Sources */,
+				E9889D40240A49B100FE6C13 /* imagebutton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

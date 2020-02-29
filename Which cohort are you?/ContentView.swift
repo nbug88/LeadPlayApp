@@ -16,8 +16,9 @@ struct ContentView: View {
             Text("This is your pupper of truth.")
             Text("By 2019 Lead Facils")
             Text("Pick a Pup")
+            imagebutton()
         }
-        Image("blepdog.jpg")
+        
         
     }
 }
